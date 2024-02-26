@@ -15,7 +15,7 @@
         <form action="/editar" th:object="${contacto}" method="post">
             <input type="hidden" th:field="*{idContacto}"/>
             <div class="mb-3">
-                <label for="nombre" class="form-label">Nombre</label>
+                <label for="nombre" class="form-label">Name</label>
                 <input type="text" class="form-control"
                        id="nombre" name="nombre" required="true" th:field="*{nombre}">
             </div>
