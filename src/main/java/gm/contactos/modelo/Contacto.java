@@ -17,9 +17,9 @@ import lombok.ToString;
 public class Contacto {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    Integer idContacto;
-    String nombre;
-    String celular;
-    String email;
+    private Integer idContacto;
+    private String nombre;
+    private String celular;
+    private String email;
 
 }
